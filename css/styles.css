@@ -61,7 +61,7 @@ li {
     align-items: center;
 }
 
-li button {
+li button { /* esto es el boton de eliminar que solo aparece al lado de la tarea guardada  */
     background: #dc3545;
     color: white;
     border: none;

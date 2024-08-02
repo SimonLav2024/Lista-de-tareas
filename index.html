@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de Tareas</title>
     <link rel="stylesheet" href="css/styles.css">
+    <title>Lista de Tareas</title>
 </head>
 <body>
     <div class="container">
         <h1>Lista de Tareas</h1>
-        <input type="text" id="new-task" placeholder="Añadir nueva tarea...">
-        <button id="add-task-btn">Añadir</button>
-        <ul id="task-list"></ul>
+        <input type="text" id="nueva-tarea" placeholder="Añadir tarea">
+        <button onclick="addTarea()" id="ad">Añadir</button>
+        <ul id="tareas"></ul>
     </div>
-    <script src="JavaScript/lista-de-tareas.js"></script>
+    
+    <script src="JavaScript/true-lista.js"></script>
 </body>
 </html>
